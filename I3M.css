@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ .dropbtn {
+  background-color: white;
+  color: yellowgreen;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+         /* unvisited link */
+a:link {
+  color: darkred;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkgoldenrod;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+		body {
+
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				font-size:22px;
+			color:whitesmoke;
+			
+			margin-top: auto;
+			background-image: url("vine.png") ; 
+			background-size:  100%; 
+			background-repeat: no-repeat;
+			background-attachment: ;
+	
+			}
+        div {
+			border: 3px solid yellowgreen;
+            text-align: center;
+  margin-top: 28%;
+  margin-bottom: 0px;
+  margin-right: 5%;
+  margin-left: 37%;
+			padding: 7px;
+  background-color: yellowgreen;
+                      
+}
+        div2 {
+			width: auto;
+            height: auto;
+            background-image: url("I3M_masthead_B.png");
+            position:absolute;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: ;
+            margin-top: top;
+            z-index: 3;
+  margin-bottom: inherit;
+  margin-right: 0px;
+  margin-left: -20px;
+        }
+        
+        
+div7 {
+			border: 0px solid white;
+            text-align: left;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+			padding: 0px;
+  background-color: white;
+           }
+
+        div8 {
+			border: 0px solid white;
+            text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+			padding: 0px;
+  background-color: white;
+           }
+
+        body,td,th {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+        
+  
+<style>
+.parallax { 
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
